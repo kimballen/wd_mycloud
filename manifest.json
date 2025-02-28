@@ -1,0 +1,11 @@
+{
+  "domain": "wd_mycloud",
+  "name": "WD MyCloud",
+  "config_flow": true,
+  "documentation": "https://github.com/yourusername/ha-wd-mycloud",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ["requests"],
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}

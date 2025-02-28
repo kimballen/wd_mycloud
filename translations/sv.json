@@ -1,0 +1,29 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Anslut till WD MyCloud",
+                "data": {
+                    "host": "IP-adress eller värdnamn",
+                    "username": "Användarnamn",
+                    "password": "Lösenord"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta",
+            "invalid_auth": "Ogiltig autentisering",
+            "unknown": "Oväntat fel"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "WD MyCloud Inställningar",
+                "data": {
+                    "scan_interval": "Uppdateringsintervall (sekunder)"
+                }
+            }
+        }
+    }
+}

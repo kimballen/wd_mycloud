@@ -1,0 +1,29 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Connect to WD MyCloud",
+                "data": {
+                    "host": "IP Address or Hostname",
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "WD MyCloud Options",
+                "data": {
+                    "scan_interval": "Update interval (seconds)"
+                }
+            }
+        }
+    }
+}
